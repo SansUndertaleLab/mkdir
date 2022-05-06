@@ -32,3 +32,11 @@ class WebApp:
             "id": id,
             "close": close
         })
+    def settitle(self,title):
+        tree.insert(0,{
+            "type": "title",
+            "content": title,
+            "classes": None,
+            "id": None,
+            "close": True
+        })
