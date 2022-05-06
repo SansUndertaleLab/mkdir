@@ -1,2 +1,2 @@
-# mkdir
+# mkweb
 Make websites with python
