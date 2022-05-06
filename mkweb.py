@@ -14,7 +14,7 @@ class WebApp:
                 classes="\""
                 for i in element["classes"]:
                     classes+=i+" "
-                finalstring+=" classes="+classes[:-1]+"\""
+                finalstring+=" class="+classes[:-1]+"\""
             if element["id"]!=None:
                 finalstring+=f" id=\"{element['id']}\""
             fileobj.write(finalstring+">")
